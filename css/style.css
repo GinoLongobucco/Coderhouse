@@ -1,0 +1,273 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+/* * selector universal para reseteo de css */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul,
+ol,
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    font-family: Rubik;
+}
+
+h1,
+h2,
+h3,
+p,
+li,
+label,
+input,
+button {
+    font-family: Rubik;
+    color: rgb(31, 31, 31);
+}
+
+/* SECOND COLOR */
+
+.second-color {
+    color: orange;
+}
+
+/* HEADER */
+
+header {
+    background-color: rgb(249, 147, 0);
+    
+  
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 70px;
+    width: 100%;
+    padding: 10px;
+}
+
+nav a {
+    color: rgb(255, 255, 255);
+    text-align: left;
+    font-weight: bolder;
+}
+
+nav ul {
+    color: #fff;
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+nav li {
+    font-size: 25px;
+    font-weight: lighter;
+}
+
+/* MAIN */
+
+.hero {
+    background-image: url(../assets/hero.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 350px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+}
+
+.hero p {
+    text-align: center;
+    justify-content: center;
+    width: 50%;
+}
+
+.hero h2 {
+    font-size: 40px;
+    color: orange;
+}
+
+/* GRILLA */
+
+
+
+.grillahijo {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.grillahijo p {
+    font-size: small;
+    font-weight: lighter;
+    text-align: center;
+    text-indent: 10px;
+}
+
+.g1 {
+    grid-area: area1;
+}
+
+.g2 {
+    grid-area: area2;
+}
+
+.g3 {
+    grid-area: area3;
+}
+
+.g4 {
+    grid-area: area4;
+}
+
+.g5 {
+    grid-area: area5;
+}
+
+.g6 {
+    grid-area: area6;
+}
+
+.grilla2 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+}
+
+
+
+/* SEC2 */
+
+.sec2 {
+    background-color: rgb(23, 164, 59);
+ text-align: center;}
+
+
+/* FOOTER */
+
+.containerfooter {
+    background-color: rgb(249, 147, 0);
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 10px;
+}
+
+.footer-left {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    gap: 10px;
+}
+
+.footer-left h2{
+    font-weight: lighter;
+}
+
+.redes {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+}
+
+.insta,
+.whatsapp,
+.loca {
+    max-width: 30px;
+    max-height: 30px;
+}
+
+.footer-right {
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+    justify-content: space-between;
+}
+
+.mainc {
+    background: #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.formulario {
+    display: flex;
+    width: 100%;
+}
+
+.form {
+    background: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 10px;
+    padding: 10px;
+}
+
+.elem-form {
+    display: flex;
+    justify-content: space-evenly;
+    resize: none;
+}
+
+.boton {
+    display: flex;
+    justify-content: right;
+}
+
+.boton button {
+    background-color: orange;
+    padding: 5px;
+}
+
+.map {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.container-ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    padding: 10px;
+    gap: 10px;
+    margin-left: 5%;
+}
+
+.container-ul h3 {
+    font-size: 25px;
+    padding: 10px;
+    font-weight: bold;
+}
+
+.ul-items li {
+    padding: 10px;
+    list-style: disc;
+    font-size: 20px;
+    font-weight: lighter;
+}
