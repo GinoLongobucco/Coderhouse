@@ -13,100 +13,97 @@
 </head>
 
 <body>
-
-    <header class="navbar navbar-expand-lg navbar-end mb-3">
-
-        <div class="container">
-            <a class="navbar-brand" href="../index.html" aria-label="Front">
-                <img class="navbar-brand-logo ml h-25 w-25"
-                    src="./svg/278093852_387509426710050_4384411702671742481_n.jpg" alt="Logo">
-            </a>
+    <!-- Header -->
+    <header class="navbar navbar-end">
+        <div class="container-fluid">
+            <a class="navbar-brand text-warning fs-5" href="../index.html" aria-label="Front">
+                <img class="navbar-brand d-inline-block align-text-center" width="40" height="50"
+                    src="../assets/cip-png.png" alt="Logo">CIP Tandil</a>
+            <ul class="nav nav-fill gap-5">
+                <li class="nav-item">
+                    <a class="nav-link fs-5 text-warning border-end border-warning border-2 pr-5"
+                        href="../index.html">Inicio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link fs-5 text-warning border-end border-warning border-2 pr-5"
+                        href="./intervencion.html">Intervencion</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link fs-5 text-warning border-end border-warning border-2 pr-5"
+                        href="./contacto.html">Contacto</a>
+                </li>
+            </ul>
         </div>
-
-        <!-- Navbar -->
-
-        <ul class="nav nav-pills nav-fill fw-bold">
-            <li class="nav-item">
-                <a class="nav-link fs-3 text-light" href="../paginas/intervencion.html">Intervencion</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link fs-3 text-light" href="../paginas/contacto.html">Contacto</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link fs-3 text-light" href="../index.html">Home</a>
-            </li>
-        </ul>
     </header>
 
+    <!--MAIN -->
     <main class="mainc">
         <div class="hero">
-            <h2>Contacto</h2>
+            <h2 class="fs-1 fw-mulish">Contacto</h2>
         </div>
-        <div class="formulario">
-            <form action="" class="form">
-                <div class="elem-form">
-                    <label for="name">Nombre:</label>
-                    <input type="text" name="name" placeholder="ingresa su nombre...">
+        <form class="border margin-top border-warning border border-2 p-4 gap-5">
+            <div class="row">
+                <div class=" fs-4 fw-bold d-flex col-12 gap-4 p-7">
+                    <label class="form-label" for="exampleFormControlInput1">Nombre:</label>
+                    <input type="text" id="exampleFormControlInput1"
+                        class="form-control w-90 h-50 p-3 border-warning border border-2"
+                        placeholder="Mariano Belgrano">
                 </div>
+            </div>
+            </div>
+            <div class="row">
+                <div class=" fs-4 fw-bold d-flex col-12 gap-5 ">
+                    <label class="form-label" for="exampleFormControlInput4">Email:</label>
+                    <input type="email" id="exampleFormControlInput4"
+                        class="form-control w-70 h-50 p-3 border-warning border border-2"
+                        placeholder="nombre@email.com">
+                </div>
+            </div>
+            </div>
+            <div class="row">
+                <div class=" fs-4 fw-bold d-flex flex-nowrap col-12 gap-5 p-2">
+                    <label class="form-label d-flex" for="exampleFormControlTextarea1">Dejanos tu mensaje:</label>
+                    <textarea id="exampleFormControlTextarea1" class="form-control border-warning border border-2"
+                        placeholder=".........." rows="4"></textarea>
+                </div>
+            </div>
 
-                <div class="elem-form">
-                    <label for="email">Email:</label>
-                    <input type="email" name="email" id="" placeholder="ingrese su email...">
-                </div>
-                <div class="elem-form">
-                    <label for="message">Dejanos tu mensaje:</label>
-                    <textarea name="message" id="" cols="20" rows="10"></textarea>
-                </div>
-                <div class="boton">
-                    <button type="submit" class="btn">Enviar</button>
-                </div>
-            </form>
-        </div>
+        </form>
         <div class="map">
-            <h3>Tambien podes encontrarnos en la siguiente ubicación</h3>
-            <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3172.517920515014!2d-59.121873448556464!3d-37.33024541420512!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95911fc3b743eeb3%3A0x4b4744aee9b10aa9!2sRoser%201402%2C%20Tandil%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1ses!2sar!4v1672191020427!5m2!1ses!2sar"
-                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
-                referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <div class="row">
+                <div class="col p-5">
+                    <h3 class="text-center">Tambien podes encontrarnos en la siguiente ubicación</h3>
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3172.517920515014!2d-59.1218734485512464!3d-37.33024541420512!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95911fc3b743eeb3%3A0x4b4744aee9b10aa9!2sRoser%201402%2C%20Tandil%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1ses!2sar!4v1672191020427!5m2!1ses!2sar"
+                        width="100%" height="250" style="border:4;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
         </div>
 
     </main>
 
     <footer>
-        <div class="containerfooter">
-            <div class="footer-left">
-                <h2>ENCUÉNTRANOS</h2>
-                <ul class="redes">
-                    <li>
-                        <a href="https://www.instagram.com/ciptandil/"> <img class="insta" src="../assets/i.png"
-                                alt="instagram"></a>
-                    </li>
-                    <li>
-                        <a href="https://wa.me/+5492494544640"> <img class="whatsapp" src="../assets/w.png"
-                                alt="whatsapp">
-                        </a>
-                    </li>
-                    <li>
-                        <a href="https://goo.gl/maps/UtRq7vaQ3iBETXZX8"> <img class="loca" src="../assets/u.png"
-                                alt="ubicacion"></a>
-                    </li>
-                </ul>
+        <div class="footer">
+            <div class="row p-4">
+                <div class="col">
+                    <a href=" https://www.instagram.com/ciptandil/"><i class="fa-brands fa-instagram fa-2xl text-warning"></i></a>
+                    <a href="https://wa.me/+5492494544640"><i class="fa-brands fa-whatsapp fa-2xl text-warning"></i></a>
+                    <a href="https://goo.gl/maps/UtRq7vaQ3iBETXZX8"><i
+                            class="fa-solid fa-map-location-dot fa-2xl text-warning"></i></a>
+                </div>
+                <div class="col">
+                    <p class="fs-5 text-warning">+54 9 2494 54-4640</p>
+                    <p class="fs-5 text-warning">ciptandil@gmail.com</p>
+                    <h5 class="fs-5 text-warning">CENTRO INTEGRAL PSICOPEDAGOGICO TANDIL</h5>
+                </div>
             </div>
-            <div class="footer-right">
-                <h3>2022 Centro Integral Psicopedagogico Tandil</h3>
-                <ul>
-                    <li>
-                        <p>+54 9 2494 54-4640</p>
-                    </li>
-                    <li>
-                        <p>ciptandil@gmail.com</p>
-                    </li>
-            </div>
-        </div>
     </footer>
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
         crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/5c8e992e6e.js" crossorigin="anonymous"></script>
 </body>
 
 
