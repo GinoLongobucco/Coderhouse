@@ -14,89 +14,106 @@
 
 <body>
     <!-- Header -->
-    <header class="navbar navbar-end">
-        <div class="container-fluid">
-            <a class="navbar-brand text-warning fs-5" href="../index.html" aria-label="Front">
-                <img class="navbar-brand d-inline-block align-text-center" width="40" height="50"
-                    src="../assets/cip-png.png" alt="Logo">CIP Tandil</a>
-            <ul class="nav nav-fill gap-5">
-                <li class="nav-item">
-                    <a class="nav-link fs-5 text-warning border-end border-warning border-2 pr-5"
-                        href="../index.html">Inicio</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link fs-5 text-warning border-end border-warning border-2 pr-5"
-                        href="./intervencion.html">Intervencion</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link fs-5 text-warning border-end border-warning border-2 pr-5"
-                        href="./contacto.html">Contacto</a>
-                </li>
-            </ul>
-        </div>
+    <header>
+        <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid">
+                <a class="navbar-brand text-warning fs-4 fw-bold" href="../index.html" aria-label="Front">
+                    <img class="navbar-brand d-inline-block align-text-center" width="40" height="50"
+                        src="../assets/cip-png.png" alt="Logo">CIP Tandil</a>
+                <button class="navbar-toggler border-warning" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link fs-5 text-warning border-end border-warning border-2 pr-5"
+                                href="../index.html">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link fs-5 text-warning border-end border-warning border-2 pr-5"
+                                href="./intervencion.html">Intervencion</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class=" nav-link fs-5 text-warning border-end border-warning border-2 pr-5"
+                                href="./contacto.html">Contacto</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
     </header>
 
     <!--MAIN -->
-    <main class="mainc">
-        <div class="hero">
-            <h2 class="fs-1 fw-mulish">Contacto</h2>
-        </div>
-        <form class="border margin-top border-warning border border-2 p-4 gap-5">
-            <div class="row">
-                <div class=" fs-4 fw-bold d-flex col-12 gap-4 p-7">
-                    <label class="form-label" for="exampleFormControlInput1">Nombre:</label>
-                    <input type="text" id="exampleFormControlInput1"
-                        class="form-control w-90 h-50 p-3 border-warning border border-2"
-                        placeholder="Mariano Belgrano">
+    <main>
+        <!-- HERO -->
+        <section class="hero d-flex flex-column justify-content-center text-center">
+            <h2 class="fw-bold fs-2 text-warning"> Contacto </h2>
+            <p class="fw-lighter fs-3 text-light">Ofrecemos programas de prevención, diagnóstico y atención
+                personalizada e
+                individualizada a los niños y
+                adolescentes con alteraciones emocionales y/o de aprendizaje.
+            </p>
+        </section>
+        <section class="row">
+                <div class="col form p-5">
+                    <form class="border margin-top border-warning border border-2 p-2 gap-5 rounded">
+                        <div class="row p-3">
+                            <div class=" fs-4  d-flex col gap-4 p-7">
+                                <label class="form-label text-warning" for="exampleFormControlInput1">Nombre:</label>
+                                <input type="text" id="exampleFormControlInput1"
+                                    class="form-control w-90 h-50 p-3 border-warning border border-2"
+                                    placeholder="nombre">
+                            </div>
+                        </div>
+                        <div class="row p-3">
+                            <div class=" fs-4  d-flex col gap-5 ">
+                                <label class="form-label text-warning" for="exampleFormControlInput4">Email:</label>
+                                <input type="email" id="exampleFormControlInput4"
+                                    class="form-control w-70 h-50 p-3 border-warning border border-2"
+                                    placeholder="nombre@email.com">
+                            </div>
+                        </div>
+                        <div class="row p-3">
+                            <div class=" fs-4 d-flex flex-nowrap col gap-5 p-2">
+                                <label class="form-label d-flex text-warning" for="exampleFormControlTextarea1">Dejanos
+                                    tu
+                                    mensaje:</label>
+                                <textarea id="exampleFormControlTextarea1"
+                                    class="form-control border-warning border border-2" placeholder="..."
+                                    rows="4"></textarea>
+                            </div>
+                        </div>
+                    </form>
                 </div>
-            </div>
-            </div>
-            <div class="row">
-                <div class=" fs-4 fw-bold d-flex col-12 gap-5 ">
-                    <label class="form-label" for="exampleFormControlInput4">Email:</label>
-                    <input type="email" id="exampleFormControlInput4"
-                        class="form-control w-70 h-50 p-3 border-warning border border-2"
-                        placeholder="nombre@email.com">
-                </div>
-            </div>
-            </div>
-            <div class="row">
-                <div class=" fs-4 fw-bold d-flex flex-nowrap col-12 gap-5 p-2">
-                    <label class="form-label d-flex" for="exampleFormControlTextarea1">Dejanos tu mensaje:</label>
-                    <textarea id="exampleFormControlTextarea1" class="form-control border-warning border border-2"
-                        placeholder=".........." rows="4"></textarea>
-                </div>
+
+            <div class="col map p-5">
+                <h3 class="text-center p-3 text-warning">Tambien podes encontrarnos en la siguiente ubicación</h3>
+                <iframe class="border border-warning rounded"
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3172.517920515014!2d-59.1218734485512464!3d-37.33024541420512!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95911fc3b743eeb3%3A0x4b4744aee9b10aa9!2sRoser%201402%2C%20Tandil%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1ses!2sar!4v1672191020427!5m2!1ses!2sar"
+                    width="100%" height="250" style="border:4;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
 
-        </form>
-        <div class="map">
-            <div class="row">
-                <div class="col p-5">
-                    <h3 class="text-center">Tambien podes encontrarnos en la siguiente ubicación</h3>
-                    <iframe
-                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3172.517920515014!2d-59.1218734485512464!3d-37.33024541420512!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95911fc3b743eeb3%3A0x4b4744aee9b10aa9!2sRoser%201402%2C%20Tandil%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1ses!2sar!4v1672191020427!5m2!1ses!2sar"
-                        width="100%" height="250" style="border:4;" allowfullscreen="" loading="lazy"
-                        referrerpolicy="no-referrer-when-downgrade"></iframe>
-                </div>
-            </div>
-        </div>
+        </section>
 
     </main>
 
     <footer>
-        <div class="footer">
-            <div class="row p-4">
-                <div class="col">
-                    <a href=" https://www.instagram.com/ciptandil/"><i class="fa-brands fa-instagram fa-2xl text-warning"></i></a>
-                    <a href="https://wa.me/+5492494544640"><i class="fa-brands fa-whatsapp fa-2xl text-warning"></i></a>
-                    <a href="https://goo.gl/maps/UtRq7vaQ3iBETXZX8"><i
-                            class="fa-solid fa-map-location-dot fa-2xl text-warning"></i></a>
-                </div>
-                <div class="col">
-                    <p class="fs-5 text-warning">+54 9 2494 54-4640</p>
-                    <p class="fs-5 text-warning">ciptandil@gmail.com</p>
-                    <h5 class="fs-5 text-warning">CENTRO INTEGRAL PSICOPEDAGOGICO TANDIL</h5>
-                </div>
+        <div class="row p-2">
+            <div class="col d-flex justify-content-start align-items-center">
+                <a class="p-2" href=" https://www.instagram.com/ciptandil/"><i
+                        class="fa-brands fa-instagram fa-2xl text-warning"></i></a>
+                <a class="p-2" href="https://wa.me/+5492494544640"><i
+                        class="fa-brands fa-whatsapp fa-2xl text-warning"></i></a>
+                <a class="p-2" href="https://goo.gl/maps/UtRq7vaQ3iBETXZX8"><i
+                        class="fa-solid fa-map-location-dot fa-2xl text-warning"></i></a>
+            </div>
+            <div class="col">
+                <p class="row pe-3 fs-4 text-warning justify-content-end align-items-center">+54 9 2494 54-4640</p>
+                <p class="row pe-3 fs-4 text-warning justify-content-end align-items-center">ciptandil@gmail.com</p>
+                <p class="row pe-3 fs-5 text-warning justify-content-end align-items-center">CIP Tandil</p>
             </div>
     </footer>
 
@@ -104,6 +121,7 @@
         integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
         crossorigin="anonymous"></script>
     <script src="https://kit.fontawesome.com/5c8e992e6e.js" crossorigin="anonymous"></script>
+
 </body>
 
 

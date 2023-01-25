@@ -4,7 +4,6 @@
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
 }
 
 ul,
@@ -27,14 +26,7 @@ a,
 label,
 input,
 button {
-    color: rgb(0, 0, 0);
     font-family: Rubik
-}
-
-/* MAIN */
-
-.navbar {
-    background-color: #3870ac;
 }
 
 .hero {
@@ -45,13 +37,8 @@ button {
     background-position: bottom;
     width: 100%;
     height: 360px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    text-align: center;
 }
 
-/* cards */
 .card-group{
     background-color: #3868ac;
 }
@@ -60,56 +47,40 @@ button {
     background-color: #3868ac;
 }
 
-/* SEC2 */
-
 .sec2 {
     background-color: #3868ac;
-    text-align: center;
-    justify-content: center;
-}
-
-/* FOOTER */
-
-.footer{
-    background-color: #3870ac;
-}
-
-
-.mainc {
-    background: #ffffff;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
-
-.boton {
-    display: flex;
-    justify-content: right;
-}
-
-.boton button {
-    background-color: orange;
-    padding: 5px;
-}
-
-.map {
-    display: flex;
-    flex-direction: column;
-
 }
 
 .container-ul {
-    display: flex;
-    flex-direction: column;
-    justify-content: left;
-    padding: 10px;
-    gap: 10px;
-    margin-left: 5%;
+    background-color: #3868ac ;
 }
 
-.container-ul h3 {
-    font-size: 25px;
-    padding: 10px;
-    font-weight: bold;
+.list-group-item {
+    background-color: #3868ac;
+}
+
+.form {
+    background-color: #3868ac;
+}
+
+.map {
+    background-color: #3868ac;
+}
+
+footer {
+    background-color: #3870ac;
+}
+
+.inter-li {
+    background-color: #3868ac;
+}
+
+
+
+.navbar {
+    background-color: #3870ac;
+}
+
+.container-fluid {
+    background-color: #3870ac;
 }
