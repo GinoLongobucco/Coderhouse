@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+}
+
+ul,
+ol,
+li {
+    list-style: none;
+    font-family: Rubik;
+}
+
+a {
+    text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+p,
+li,
+a,
+label,
+input,
+button {
+    font-family: Rubik
+}
