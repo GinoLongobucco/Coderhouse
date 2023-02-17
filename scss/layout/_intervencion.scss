@@ -1,11 +1,15 @@
-.container-ul {
-    background-color: #3868ac ;
-}
-
-.list-group-item {
-    background-color: #3868ac;
-}
-
 .inter-li {
-    background-color: #3868ac;
+    background-color: $marron;
+
+    .col {
+        h5 {
+            color: $naranja2;
+        }
+
+        ul {
+            li {
+                background-color: $crema;
+            }
+        }
+    }
 }

@@ -1,11 +1,37 @@
-.card-group{
-    background-color: #3868ac;
-}
-
-.card{
-    background-color: #3868ac;
+.card-group {
+    background-color: $marron ;
+    .card {
+        .card-body {
+            background-color: $crema;
+            i {
+                color: $naranja1;
+            }
+            h3 {
+                color: $naranja2;
+            }
+            p {
+                color: $blanco;
+            }
+        }
+    }
 }
 
 .sec2 {
-    background-color: #3868ac;
+    background-color: $crema;
+
+    h2 {
+        color: $blanco;
+    }
+
+    i {
+        color: $naranja2;
+    }
+
+    p {
+        color: $naranja2;
+    }
+
+    h3 {
+        color: $blanco;
+    }
 }

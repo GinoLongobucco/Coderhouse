@@ -1,7 +1,14 @@
-.container-fluid {
-    background-color: #3870ac;
-}
+.contacto {
+    background-color: $marron;
+    h3{
+        color: $naranja2;
+    }
 
-.map {
-    background-color: #3868ac;
+    form {
+        background-color: $crema ;
+
+            label {
+                color: $naranja2;
+            }
+    }
 }

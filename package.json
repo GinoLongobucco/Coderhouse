@@ -4,8 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    
-    "build-sass": "node-sass --include-path scss ./scss/style.scss ./css/style.css -w",
+    "build-css": "node-sass --include-path scss ./scss/style.scss ./css/style.css -w",
     "watch-css": "nodemon -e scss -x \"npm run build-css\""
   },
   "author": "",
@@ -173,8 +172,8 @@
     "spdx-license-ids": "^3.0.12",
     "ssri": "^9.0.1",
     "stdout-stream": "^1.4.1",
-    "string-width": "^4.2.3",
     "string_decoder": "^1.3.0",
+    "string-width": "^4.2.3",
     "strip-ansi": "^6.0.1",
     "strip-indent": "^3.0.0",
     "supports-color": "^7.2.0",

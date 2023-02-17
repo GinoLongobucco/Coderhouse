@@ -5,7 +5,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Consultorio Integral Psicopedagogico Tandil
+    <meta name="description"
+        content="Consultorio Integral Psicopedagogico Tandil
     Ofrecemos programas de prevención, diagnóstico y atención personalizada e individualizada a los niños y adolescentes con alteraciones emocionales y/o de aprendizaje.">
     <meta name="keywords" content="Consultorio Integral Psicopedagogico">
     <title>Consultorio Integral Psicopedagogico</title>
@@ -16,32 +17,27 @@
 
 <body>
 
-    <!-- Header -->
-
     <header>
         <nav class="navbar navbar-expand-lg">
             <div class="container-fluid">
-                <a class="navbar-brand text-warning fs-4 fw-bold" href="../index.html" aria-label="Front">
+                <a class="navbar-brand fs-4 fw-bold" href="./index.html" aria-label="Front">
                     <img class="navbar-brand d-inline-block align-text-center" width="40" height="50"
                         src="./assets/cip-png.png" alt="Logo">CIP Tandil</a>
-                <button class="navbar-toggler border-warning" type="button" data-bs-toggle="collapse"
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false"
                     aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <div class="collapse navbar-collapse " id="navbarTogglerDemo02">
+                <div class="collapse navbar-collapse justify-content-end" id="navbarTogglerDemo02">
                     <ul class="navbar-nav">
                         <li class="nav-item">
-                            <a class="nav-link fs-5 text-warning border-end border-warning border-2 pr-5"
-                                href="./index.html">Inicio</a>
+                            <a class="nav-link fs-5" href="./index.html">Inicio</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link fs-5 text-warning border-end border-warning border-2 pr-5"
-                                href="./paginas/intervencion.html">Intervencion</a>
+                            <a class="nav-link fs-5" href="./paginas/intervencion.html">Intervencion</a>
                         </li>
                         <li class="nav-item">
-                            <a class=" nav-link fs-5 text-warning border-end border-warning border-2 pr-5"
-                                href="./paginas/contacto.html">Contacto</a>
+                            <a class=" nav-link fs-5" href="./paginas/contacto.html">Contacto</a>
                         </li>
                     </ul>
                 </div>
@@ -50,20 +46,57 @@
     </header>
 
     <main>
-
-        <section class="hero d-flex flex-column justify-content-center text-center">
-            <h2 class="fw-bold fs-2 text-warning"> Consultorio Integral Psicopedagogico Tandil </h2>
-            <p class="fw-lighter fs-3 text-light">Ofrecemos programas de prevención, diagnóstico y atención
-                personalizada e
-                individualizada a los niños y
-                adolescentes con alteraciones emocionales y/o de aprendizaje.
-            </p>
-        </section>
+        <div id="carouselExampleCaptions" class="carousel slide">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="./assets/1.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h3>Programas de prevención</h3>
+                        <p>Ofrecemos programas de prevención, diagnóstico y atención personalizada e individualizada a
+                            los niños y adolescentes con alteraciones emocionales y/o de aprendizaje. </p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="./assets/2.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h3>Diagnóstico</h3>
+                        <p>Ofrecemos programas de prevención, diagnóstico y atención personalizada e individualizada a
+                            los niños y adolescentes con alteraciones emocionales y/o de aprendizaje. </p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="./assets/3.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h3>Atención personalizada e individualizada</h3>
+                        <p>Ofrecemos programas de prevención, diagnóstico y atención personalizada e individualizada a
+                            los niños y adolescentes con alteraciones emocionales y/o de aprendizaje. </p>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
 
         <section>
             <div class="card-group p-5 gap-4">
                 <div class="card gap-2 border border-warning border-2 rounded-2">
-                    <div class="card-body text-center text-warning">
+                    <div class="card-body text-center">
                         <i class="fa-regular fa-envelope fa-2xl pb-4 "></i>
                         <h3 class="card-title fs-4 text-center">EVALUACIONES </h3>
                         <p class="card-text fs-5 text-center text-light">Psicométrica, Psicológica, Del Desarrollo
@@ -75,7 +108,7 @@
                     </div>
                 </div>
                 <div class="card gap-2 border border-warning border-2 rounded-2">
-                    <div class="card-body text-center text-warning">
+                    <div class="card-body text-center">
                         <i class="fa-regular fa-comment fa-2xl pb-4"></i>
                         <h3 class="card-title fs-4 text-center">PSICOPEDAGOGÍA </h3>
                         <p class="card-text fs-5 text-center text-light">Ofrece programas de prevención, diagnóstico
@@ -87,7 +120,7 @@
                     </div>
                 </div>
                 <div class="card gap-2 border border-warning border-2 rounded-2">
-                    <div class="card-body text-center text-warning">
+                    <div class="card-body text-center">
                         <i class="fa-solid fa-user fa-2xl pb-4"></i>
                         <h3 class="card-title fs-4 text-center">PSICOLOGÍA DE ADULTOS</h3>
                         <p class="card-text fs-5 text-center text-light">Se define como el estudio del
@@ -101,7 +134,7 @@
             </div>
             <div class="card-group p-5 pt-0 gap-4">
                 <div class="card gap-2 border border-warning border-2 rounded-2">
-                    <div class="card-body text-center text-warning">
+                    <div class="card-body text-center">
                         <i class="fa-regular fa-user fa-2xl pb-4"></i>
                         <h3 class="card-title text-center">PSICOLOGÍA DE NIÑOS </h3>
                         <p class="card-text fs-5 text-center text-light">La valoración psicológica, está compuesta
@@ -116,7 +149,7 @@
                     </div>
                 </div>
                 <div class="card gap-2 border border-warning border-2 rounded-2">
-                    <div class="card-body text-center text-warning">
+                    <div class="card-body text-center">
                         <i class="fa-solid fa-book fa-2xl pb-4"></i>
                         <h3 class="card-title text-center">TERAPIA DEL LENGUAJE </h3>
                         <p class="card-text fs-5 text-center text-light">El lenguaje es el medio principal que el
@@ -131,7 +164,7 @@
                     </div>
                 </div>
                 <div class="card gap-2 border border-warning border-2 rounded-2">
-                    <div class="card-body text-center text-warning">
+                    <div class="card-body text-center">
                         <i class="fa-solid fa-book-open fa-2xl pb-4"></i>
                         <h3 class="card-title text-center">TERAPIA OCUPACIONAL</h3>
                         <p class="card-text fs-5 text-center text-light">El servicio de Terapia Ocupacional realiza
@@ -152,24 +185,24 @@
         <section>
             <div class="sec2">
                 <div class="row">
-                    <h3 class="pt-4 text-light text-center">TENEMOS EXPERIENCIA</h3>
-                    <h2 class="text-light text-center ">¿Por qué trabajar con nosotros?</h2>
+                    <h3 class="pt-4 text-center">TENEMOS EXPERIENCIA</h3>
+                    <h2 class="text-center ">¿Por qué trabajar con nosotros?</h2>
                 </div>
                 <div class="row pt-4 pb-4">
                     <div class="col d-flex flex-column justify-content-center align-items-center">
-                        <i class="fa-solid fa-check fa-2xl text-warning pb-4"></i>
-                        <h3 class="fw-light text-center text-light">100%</h3>
-                        <p class="fw-bold text-center text-warning">PADRES SATISFECHOS</p>
+                        <i class="fa-solid fa-check fa-2xl pb-4"></i>
+                        <h3 class="fw-light text-center">100%</h3>
+                        <p class="fw-bold text-center">PADRES SATISFECHOS</p>
                     </div>
                     <div class="col d-flex flex-column justify-content-center align-items-center">
-                        <i class="fa-solid fa-certificate fa-2xl text-warning pb-4"></i>
-                        <h3 class="fw-light text-center text-light">MULTIPLES</h3>
-                        <p class="fw-bold text-center text-warning">CURSOS CERTIFICADOS</p>
+                        <i class="fa-solid fa-certificate fa-2xl pb-4"></i>
+                        <h3 class="fw-light text-center">MULTIPLES</h3>
+                        <p class="fw-bold text-center">CURSOS CERTIFICADOS</p>
                     </div>
                     <div class="col d-flex flex-column justify-content-center align-items-center">
-                        <i class="fa-solid fa-user-graduate fa-2xl text-warning pb-4"></i>
-                        <h3 class="fw-light text-center text-light">3</h3>
-                        <p class="fw-bold text-center text-warning">PROFESIONALES</p>
+                        <i class="fa-solid fa-user-graduate fa-2xl pb-4"></i>
+                        <h3 class="fw-light text-center">3</h3>
+                        <p class="fw-bold text-center">PROFESIONALES</p>
                     </div>
                     </ul>
                 </div>
@@ -179,19 +212,18 @@
     </main>
 
     <footer>
-        <div class="row p-2">
+        <div class="row p-2 ">
             <div class="col d-flex justify-content-start align-items-center">
                 <a class="p-2" href=" https://www.instagram.com/ciptandil/"><i
-                        class="fa-brands fa-instagram fa-2xl text-warning"></i></a>
-                <a class="p-2" href="https://wa.me/+5492494544640"><i
-                        class="fa-brands fa-whatsapp fa-2xl text-warning"></i></a>
+                        class="fa-brands fa-instagram fa-2xl"></i></a>
+                <a class="p-2" href="https://wa.me/+5492494544640"><i class="fa-brands fa-whatsapp fa-2xl"></i></a>
                 <a class="p-2" href="https://goo.gl/maps/UtRq7vaQ3iBETXZX8"><i
-                        class="fa-solid fa-map-location-dot fa-2xl text-warning"></i></a>
+                        class="fa-solid fa-map-location-dot fa-2xl"></i></a>
             </div>
-            <div class="col">
-                <p class="row pe-3 fs-4 text-warning justify-content-end align-items-center">+54 9 2494 54-4640</p>
-                <p class="row pe-3 fs-4 text-warning justify-content-end align-items-center">ciptandil@gmail.com</p>
-                <p class="row pe-3 fs-5 text-warning justify-content-end align-items-center">CIP Tandil</p>
+            <div class="col justify justify-content-end">
+                <p class="row pe-3 fs-4 justify-content-end align-items-center">+54 9 2494 54-4640</p>
+                <p class="row pe-3 fs-4 justify-content-end align-items-center">ciptandil@gmail.com</p>
+                <p class="row pe-3 fs-5 justify-content-end align-items-center">CIP Tandil</p>
             </div>
     </footer>
 

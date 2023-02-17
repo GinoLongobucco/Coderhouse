@@ -1,3 +1,15 @@
 .navbar {
-    background-color: #3870ac;
+    background-color: $celeste;
+
+    .container-fluid {
+        background-color: $celeste;
+
+        button {
+            border-color: $naranja1;
+        }
+
+        a {
+            color: $naranja2;
+        }
+    }
 }
