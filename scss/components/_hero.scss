@@ -3,15 +3,13 @@
     .carousel-inner {
         .carousel-item {
             img {
-                width: 100%;
-                height: 400px;
+                @include tamanio(350px, 100%);
             }
         }
 
         .carousel-caption {
             h3 {
-                color: $naranja1;
-
+                @extend %color;
             }
         }
     }
