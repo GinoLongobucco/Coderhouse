@@ -24,36 +24,38 @@ button {
   font-family: Rubik; }
 
 .carousel .carousel-inner .carousel-caption h3 {
-  color: #E58E00; }
+  color: #FFA500; }
 
 .navbar {
-  background-color: #27AFC9; }
+  background-color: #ADD8E6; }
   .navbar .container-fluid {
-    background-color: #27AFC9; }
+    background-color: #ADD8E6; }
     .navbar .container-fluid button {
-      border-color: #E58E00; }
+      border-color: #FFA500; }
     .navbar .container-fluid a {
-      color: #FFBB02; }
+      color: #FFA500; }
 
 .carousel .carousel-inner .carousel-item img {
   height: 350px;
   width: 100%; }
 
 footer {
-  background-color: #27AFC9; }
+  background-color: #ADD8E6; }
   footer i {
-    color: #FFBB02; }
+    color: #FFA500; }
   footer p {
-    color: #FFBB02; }
+    color: #FFA500; }
+  footer h5 {
+    color: #FFA500; }
 
 .card-group {
   background-color: #6D5C55; }
   .card-group .card .card-body {
     background-color: #B0A6A5; }
     .card-group .card .card-body i {
-      color: #E58E00; }
+      color: #FFA500; }
     .card-group .card .card-body h3 {
-      color: #FFBB02; }
+      color: #FFA500; }
     .card-group .card .card-body p {
       color: #ffffff; }
 
@@ -62,24 +64,24 @@ footer {
   .sec2 h2 {
     color: #ffffff; }
   .sec2 i {
-    color: #FFBB02; }
+    color: #FFA500; }
   .sec2 p {
-    color: #FFBB02; }
+    color: #FFA500; }
   .sec2 h3 {
     color: #ffffff; }
 
 .contacto {
   background-color: #6D5C55; }
   .contacto h3 {
-    color: #FFBB02; }
+    color: #FFA500; }
   .contacto form {
     background-color: #B0A6A5; }
     .contacto form label {
-      color: #FFBB02; }
+      color: #FFA500; }
 
 .inter-li {
   background-color: #6D5C55; }
   .inter-li .col h5 {
-    color: #FFBB02; }
+    color: #FFA500; }
   .inter-li .col ul li {
     background-color: #B0A6A5; }
