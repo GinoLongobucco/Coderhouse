@@ -1,16 +1,18 @@
-.carousel {
+.carousel-inner .carousel-item img {
+    height: 400px;
+    /* altura por defecto */
+}
 
-    .carousel-inner {
-        .carousel-item {
-            img {
-                @include tamanio(350px, 100%);
-            }
-        }
+@media (max-width: 992px) {
+    .carousel-inner .carousel-item img {
+        height: 300px;
+        /* altura en pantallas medianas */
+    }
+}
 
-        .carousel-caption {
-            h3 {
-                @extend %color;
-            }
-        }
+@media (max-width: 768px) {
+    .carousel-inner .carousel-item img {
+        height: 200px;
+        /* altura en pantallas pequeñas */
     }
 }
